@@ -8,7 +8,7 @@ import { store } from './store';
 
 // import HomeComponent from './components/home-component/HomeContainer';
 // import LoginComponent from './components/login-component/LoginContainer';
-// import RegisterComponent from './components/register-component/RegisterContainer';
+import RegisterComponent from './components/RegisterComponent/RegisterContainer';
 // import ItemDetailsComponent from './components/item-details-component/ItemDetailsContainer';
 // import BrowseItemsComponent from './components/browse-items-component/BrowseItemsContainer';
 // import CartComponent from './components/cart-component/CartContainer';

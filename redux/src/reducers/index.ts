@@ -8,6 +8,11 @@ export interface IRegisterState {
     errorMessage: string;
 }
 
+export interface ILoginState {
+    authUser: User;
+    errorMessage: string;
+}
+
 export interface IState {
     register: IRegisterState;
 }
