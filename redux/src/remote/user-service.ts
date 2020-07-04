@@ -2,7 +2,6 @@
 import { User } from "../models/User";
 import { NewUser } from "../models/NewUser";
 import { toyStoreClient } from "./toystore-client";
-import { Principal } from "../models/Principal";
 
 export async function register(NewUser: NewUser){
 	let response = await toyStoreClient.post('/users', NewUser);

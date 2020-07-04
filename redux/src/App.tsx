@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { store } from './store';
 
 // import HomeComponent from './components/home-component/HomeContainer';
-// import LoginComponent from './components/login-component/LoginContainer';
+import LoginComponent from './components/LoginComponent/LoginContainer';
 import RegisterComponent from './components/RegisterComponent/RegisterContainer';
 // import ItemDetailsComponent from './components/item-details-component/ItemDetailsContainer';
 // import BrowseItemsComponent from './components/browse-items-component/BrowseItemsContainer';
@@ -46,7 +46,9 @@ function App() {
           </AppBar>
           <Switch>
             <Route path='/register' render={() => <RegisterComponent />} />
-            {/* <Route path='/login' render={() => <LoginComponent />} />
+            <Route path='/login' render={() => <LoginComponent />} />
+            
+            {/* 
             <Route path='/browse' render={() => <BrowseItemsComponent />} />
             <Route path='/additem' render={() => <NewItemComponent />} />
             <Route path='/admin-dashboard' render={() => <AdminDashComponent />} /> 
