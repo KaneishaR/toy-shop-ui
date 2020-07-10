@@ -10,6 +10,6 @@ const enhancer = composeEnhancers(
 );
 
 export const store: Store<any> = createStore(
-    //state,
+    state,
     enhancer
 )

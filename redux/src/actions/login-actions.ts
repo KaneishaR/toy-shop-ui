@@ -1,5 +1,5 @@
-import React from "react"
-import { login } from "../remote/user-service"
+import React from "react";
+import { login } from "../remote/user-service";
 import { Dispatch } from "redux";
 
 export const loginActionTypes = {

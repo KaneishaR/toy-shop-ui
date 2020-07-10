@@ -9,6 +9,7 @@ import { store } from './store';
 // import HomeComponent from './components/home-component/HomeContainer';
 import LoginComponent from './components/LoginComponent/LoginContainer';
 import RegisterComponent from './components/RegisterComponent/RegisterContainer';
+import QuestionaireComponent from './components/QuestionaireComponent/QuestionaireContainer';
 // import ItemDetailsComponent from './components/item-details-component/ItemDetailsContainer';
 // import BrowseItemsComponent from './components/browse-items-component/BrowseItemsContainer';
 // import CartComponent from './components/cart-component/CartContainer';
@@ -47,7 +48,7 @@ function App() {
           <Switch>
             <Route path='/register' render={() => <RegisterComponent />} />
             <Route path='/login' render={() => <LoginComponent />} />
-            
+            <Route path='/questions' render={() => <QuestionaireComponent />} />
             {/* 
             <Route path='/browse' render={() => <BrowseItemsComponent />} />
             <Route path='/additem' render={() => <NewItemComponent />} />
